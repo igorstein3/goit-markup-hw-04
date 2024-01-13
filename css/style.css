@@ -92,15 +92,23 @@ letter-spacing: 0.02em;}
 /* SECTION 1 */
 
 .main-page {background: var(--NAVY-BLUE, #2E2F42);
+            background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+                                            rgba(46, 47, 66, 0.7)),
+                             url(../images/people-office-1.svg);
+            background-repeat: no-repeat;
+            background-position: top right, center;
+            /* background-size:cover; */
+    
 }
 .main-page .container {padding-top: 188px;
-    padding-bottom: 188px;}
+    padding-bottom: 188px;
+}
 .main-page-title {color: var(--WHITE, #FFFFFF);
     text-align: center;
     /* Header 1 */
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.07;
+    line-height: 1.07143;
     /* 107.143% */
     letter-spacing: 0.02em;
     width: 496px;
@@ -117,7 +125,7 @@ letter-spacing: 0.02em;}
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.04em;
-        border:4px solid var(--IRIS, #4D5AE5);
+        border:0px solid var(--IRIS, #4D5AE5);
         border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         padding:16px 32px;
@@ -134,7 +142,7 @@ letter-spacing: 0.02em;}
     .button-box:hover,
     .button-box:focus {background: var(--OCEAN, #404BBF);
         cursor:pointer; 
-        border:4px solid var(--OCEAN, #404BBF);
+        border:0px solid var(--OCEAN, #404BBF);
         border-radius: 4px;
     }
         /* SECTION 2 */
