@@ -151,15 +151,15 @@ img {
 /* SECTION 1 */
 
 .main-page {
-  background: var(--NAVY-BLUE, #2e2f42);
+  background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office-1.svg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
-  background-position: top right, center;
-  /* background-size:cover; */
+  background-position: center;
+  background-size: cover;
 }
 .main-page .container {
   padding-top: 188px;
@@ -250,7 +250,6 @@ img {
 }
 .third-title {
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 .icon-box {
   display: flex;
@@ -260,6 +259,7 @@ img {
   border-radius: 4px;
   height: 112px;
   background-color: #f4f4fd;
+  margin-bottom: 8px;
 }
 
 /* SECTION 3 */
