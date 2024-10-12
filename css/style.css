@@ -326,7 +326,8 @@ SECTION 2 .visually-hidden {
 .social-icon {
   fill: #f4f4fd;
 }
-.social-links-link:hover {
+.social-links-link:hover,
+.social-links-link:focus {
   background-color: #404bbf;
 }
 
