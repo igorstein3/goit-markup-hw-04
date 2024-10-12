@@ -50,11 +50,16 @@ img {
 .page-header {
   box-shadow: 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
 }
-.page-header .container {
+/* .page-header .container {
   padding-top: 0;
   padding-bottom: 0;
-}
+} */
 .main-nav {
   display: flex;
   align-items: center;
