@@ -1,7 +1,7 @@
 /* GENERAL SETTINS*/
 
 .container {
-  width: 1158px;
+  width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
   padding-left: 15px;
@@ -152,9 +152,11 @@ img {
 
 .main-page {
   background-color: #2e2f42;
+}
+.main-page .container {
+  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
-  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -208,7 +210,8 @@ img {
   border: 0px solid var(--OCEAN, #404bbf);
   border-radius: 4px;
 }
-SECTION 2 .visually-hidden {
+/* SECTION 2*/
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
