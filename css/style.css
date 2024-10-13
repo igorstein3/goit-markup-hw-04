@@ -152,10 +152,6 @@ img {
 
 .main-page {
   background-color: #2e2f42;
-}
-.main-page .container {
-  padding-top: 188px;
-  padding-bottom: 188px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -165,6 +161,10 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.main-page-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .main-page-title {
   color: var(--WHITE, #ffffff);
